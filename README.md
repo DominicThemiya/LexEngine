@@ -2,7 +2,7 @@
 
 A header-only C++17 library for building a lexer for your own language without writing one by hand.
 
-You describe the language — its keywords, operators, identifiers, numbers, strings and comments — and LexEngine turns source text into a stream of tokens using **your own token enum**.
+You describe the language (its keywords, operators, identifiers, numbers, strings and comments), and LexEngine turns source text into a stream of tokens using **your own token enum**.
 
 ```cpp
 #include "lexengine.hpp"
@@ -68,8 +68,8 @@ Requires C++17 or later.
 
 ## Documentation
 
-- [Guide](docs/guide.md) — how lexing works, how rules interact, and recipes for common languages.
-- [API reference](docs/api.md) — every type and function.
+- [Guide](docs/guide.md): how lexing works, how rules interact, and recipes for common languages.
+- [API reference](docs/api.md): every type and function.
 
 ## Building the tests and example
 
